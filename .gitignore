@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Sage auto-generated
+*.sage.py
+
+# Jupyter Notebook
+*.ipynb
+.ipynb_checkpoints/
+
+# Data & experiments (too large for git)
+data/
+expdata/
+logs/
+ICA/
+
+# Images & figures
+pic/
+*.png
+*.jpg
+*.jpeg
+
+# PDF
+*.pdf
+
+# LaTeX auxiliary
+*.aux
+*.log
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Internal research notes (Claude/agent working memory, not for upload)
+_research_notes/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# PyTorch checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Numpy data
+*.npy
+*.npz
